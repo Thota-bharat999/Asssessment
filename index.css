@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+.bg-container {
+    background-color: #FFC0CB;
+    background-size: cover;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    padding:30px;
+    height:100vh;
+}
+
+.profile-containers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height:95vh;
+
+
+}
+
+.image {
+    height: 80px;
+    width: 80px;
+    background-color:  #180d3d;
+    border-radius: 50%;
+}
+
+.container {
+    display: flex;
+   align-items: flex-end;
+    /* border: 2px solid blue;  */
+    width:100%;
+   
+  
+}
+
+.profile-Description {
+    color: #000080;
+    font-family: "Roboto";
+    font-size: 15px;
+    font-weight:bold;
+}
+
+.container-heading {
+    color: #000080;
+    font-family: "Roboto";
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.work-heading {
+    color: #000080;
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px;
+    margin: 5px;
+
+}
+
+.span {
+    color: #000080;
+    font-weight: bold;
+
+}
+.profile-container{
+    border-right: 4px solid #180d3d;
+     border-bottom:  4px solid #180d3d;
+    padding:12px;
+    width:50%;
+    
+}
+
+.profile-detail{
+    border-bottom:4px solid #180d3d;
+    /* border-right: 4px solid #180d3d; */
+    padding:12px;
+    width:50%;
+    
+}
+.border-line1{
+    border-bottom:4px solid #180d3d;
+}
+
+.skill{
+    width:50%;
+     border-right: 4px solid #180d3d;
+}
+.border-line2{
+    border-bottom:4px solid #180d3d;
+   
+    
+}
+
+.border-line3{
+    border-bottom:4px solid #180d3d;
+    display: flex;
+    align-items: center;
+    justify-content:space-around ;
+    margin:20px;
+}
